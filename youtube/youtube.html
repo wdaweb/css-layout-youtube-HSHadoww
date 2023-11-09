@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/YouTube.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+
+
+
+        <!-- logo -->
+        <div class="logocon">
+            <button class="menu"><span class="material-symbols-outlined">
+                    menu
+                </span></button>
+            <div class="logo"><img src="./img/logo.png" alt=""></div>
+            <sup>TW</sup>
+        </div>
+
+
+
+        <!-- search -->
+        <div class="searchcon">
+            <form action="">
+                <input type="text" placeholder="搜尋">
+            </form>
+            <button class="search"><span class="material-symbols-outlined">
+                    search
+                </span></button>
+            <button class="mic"><span class="material-symbols-outlined">
+                    mic
+                </span></button>
+        </div>
+
+        <!-- profile -->
+        <div class="user">
+            <span class="material-symbols-outlined">
+                video_call
+            </span>
+            <span class="material-symbols-outlined">
+                notifications
+            </span>
+            <div class="userbox"><img src="./img/user.jpg" alt=""></div>
+        </div>
+    </div>
+
+
+
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="sidebarits">
+            <a href="#" class="sidebarit" id="home"><span class="material-symbols-outlined">
+                    home
+                </span>首頁</a>
+            <a href="#" class="sidebarit"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+                    viewBox="0 0 256 256" xml:space="preserve">
+
+                    <defs>
+                    </defs>
+                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                        transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                        <path
+                            d="M 69.186 38.498 c -1.406 -0.795 -2.751 -1.651 -4.34 -2.568 c 1.589 -0.978 3.057 -1.834 4.463 -2.629 c 6.541 -3.546 10.148 -10.759 9.047 -18.095 C 76.766 3.164 62.889 -3.804 52.375 2.186 C 41.616 8.361 30.857 14.413 20.22 20.77 c -8.436 5.074 -9.659 11.798 -8.314 19.745 c 0.856 4.952 4.157 8.619 8.497 11.126 c 1.528 0.856 2.995 1.712 4.646 2.69 c -1.834 1.1 -3.484 2.078 -5.257 2.995 c -7.825 4.952 -10.515 15.099 -6.113 23.291 c 4.646 8.62 15.405 11.921 24.024 7.275 c 9.292 -5.257 18.584 -10.637 27.815 -16.016 c 2.201 -1.284 4.524 -2.445 6.48 -4.035 C 81.84 59.649 80.373 44.795 69.186 38.498 z M 36.359 58.549 V 31.835 l 23.108 13.327 L 36.359 58.549 z"
+                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    </g>
+                </svg>Shorts</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined"> subscriptions</span>訂閱內容</a>
+            <a href="#" class="sidebarit"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                    viewBox="0 0 50 50">
+                    <path
+                        d="M 25 3 C 12.85 3 3 12.85 3 25 C 3 37.15 12.85 47 25 47 C 37.15 47 47 37.15 47 25 C 47 12.85 37.15 3 25 3 z M 25 11 C 32.72 11 39 17.28 39 25 C 39 32.72 32.72 39 25 39 C 17.28 39 11 32.72 11 25 C 11 17.28 17.28 11 25 11 z M 25 13 C 18.383 13 13 18.383 13 25 C 13 31.617 18.383 37 25 37 C 31.617 37 37 31.617 37 25 C 37 18.383 31.617 13 25 13 z M 22.019531 18.501953 C 22.194031 18.505203 22.366984 18.552484 22.521484 18.646484 L 31.521484 24.146484 C 31.817484 24.327484 32 24.651 32 25 C 32 25.349 31.818484 25.671516 31.521484 25.853516 L 22.521484 31.353516 C 22.361484 31.450516 22.181 31.5 22 31.5 C 21.832 31.5 21.663719 31.456094 21.511719 31.371094 C 21.195719 31.194094 21 30.861 21 30.5 L 21 19.5 C 21 19.139 21.195719 18.805906 21.511719 18.628906 C 21.670219 18.540906 21.845031 18.498703 22.019531 18.501953 z">
+                    </path>
+                </svg>YouTube Music</a>
+            <hr>
+            <a href="#" class="sidebarit">你的內容<span class="material-symbols-outlined">
+                    chevron_right
+                </span></a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    account_box
+                </span>你的頻道</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    history
+                </span>觀看記錄</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    slideshow
+                </span>你的影片</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    schedule
+                </span>稍後觀看</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    download
+                </span>已下載的內容</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    expand_more
+                </span>顯示更多</a>
+            <hr>
+            <h4>訂閱內容</h4>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/Muse木棉花-TW.jpg"
+                        alt=""></span>Muse木棉花-TW</a>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/Kennen.jpg" alt=""></span>Kennen</a>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/OUBA MUSIC 오뮤.jpg" alt=""></span>OUBA
+                MUSIC 오뮤</a>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/Tabata Songs.jpg" alt=""></span>Tabata
+                Songs</a>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/나빌레이어.jpg" alt=""></span>나빌레이어</a>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/Dcard Video.jpg" alt=""></span>Dcard
+                Video</a>
+            <a href="#" class="sidebarit"><span class="youtuber"><img src="./img/김배틀메이지,흐륜.jpg"
+                        alt=""></span>김배틀메이지,흐륜</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    expand_more
+                </span>顯示另外10個項目</a>
+            <hr>
+            <h4>探索</h4>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    local_fire_department
+                </span>發燒影片</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    music_note
+                </span>音樂</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    movie
+                </span></i>電影</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    sensors
+                </span>直播</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    stadia_controller
+                </span>遊戲</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    newsmode
+                </span>新聞</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    emoji_events
+                </span>體育</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    podcasts
+                </span>Podcast</a>
+            <hr>
+            <h4>更多YouTube功能</h4>
+            <a href="#" class="sidebarit"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                    viewBox="0 0 48 48">
+                    <path fill="#ff3d00"
+                        d="M42,32.84V15.945c0-1.081-0.581-2.078-1.521-2.61l-15-8.497c-0.917-0.52-2.04-0.52-2.957,0 l-15,8.497C6.581,13.867,6,14.864,6,15.945V32.84c0,1.081,0.581,2.078,1.521,2.61l15,8.497c0.917,0.52,2.04,0.52,2.957,0l15-8.497 C41.419,34.918,42,33.921,42,32.84z">
+                    </path>
+                    <path fill="#fff"
+                        d="M24,37.941c-0.682,0-1.363-0.172-1.972-0.517l-8.821-4.997c-1.251-0.708-2.029-2.042-2.029-3.48 v-9.895c0-1.438,0.777-2.772,2.029-3.48l8.821-4.997c1.216-0.689,2.726-0.689,3.943,0l8.821,4.997 c1.251,0.708,2.029,2.042,2.029,3.48v9.895c0,1.438-0.777,2.772-2.029,3.48l-8.821,4.997C25.363,37.77,24.682,37.941,24,37.941z M24,12.057c-0.341,0-0.682,0.087-0.985,0.259l-8.822,4.997c-0.625,0.354-1.014,1.021-1.014,1.74v9.895 c0,0.72,0.389,1.386,1.014,1.74l8.821,4.997c0.608,0.344,1.364,0.344,1.971,0l8.822-4.997c0.625-0.354,1.014-1.021,1.014-1.74 v-9.895c0-0.72-0.389-1.386-1.014-1.74l-8.821-4.997C24.682,12.144,24.341,12.057,24,12.057z">
+                    </path>
+                    <polygon fill="#fff" points="20,18 20,30 30,24"></polygon>
+                </svg>YouTube 工作室</a>
+            <a href="#" class="sidebarit"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                    viewBox="0 0 48 48">
+                    <circle cx="24" cy="24" r="20" fill="#f44336"></circle>
+                    <polygon fill="#fff" points="21,29 29,24 21,19"></polygon>
+                    <path fill="none" stroke="#fff" stroke-miterlimit="10"
+                        d="M24,14c5.5,0,10,4.476,10,10s-4.476,10-10,10	s-10-4.476-10-10S18.5,14,24,14"></path>
+                </svg>YouTube Music</a>
+            <a href="#" class="sidebarit"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                    viewBox="0 0 48 48">
+                    <path fill="#ef4823"
+                        d="M2.771,27.348c-0.507-3.402-0.287-6.486,0.411-9.854c0.231-1.115,0.536-2.227,1.075-3.232 c1.761-3.28,5.685-4.823,9.4-5.24c3.715-0.416,7.283-0.221,11.015-0.437c5.51-0.319,10.337,0.289,15.482,1.48 c0.795,0.184,1.606,0.375,2.297,0.807c1.592,0.996,2.172,3.002,2.485,4.847c0.944,5.56,0.612,11.258-0.034,16.86 c-0.169,1.462-0.396,3.008-1.345,4.137c-0.848,1.008-2.146,1.522-3.422,1.867c-3.363,0.909-6.898,0.904-10.384,0.893 c-4.226-0.014-8.453-0.027-12.679-0.041c-4.114-0.013-8.593-0.152-11.757-2.766c-0.681-0.562-1.288-1.243-1.615-2.061 c-0.238-0.594-0.319-1.236-0.399-1.87C3.043,30.684,3.076,29.396,2.771,27.348z">
+                    </path>
+                    <path fill="#010101"
+                        d="M46.014,22.201c-0.043-2.331-0.227-4.68-0.66-6.974c-0.32-1.695-0.914-3.51-2.355-4.582 c-0.828-0.616-1.837-0.861-2.826-1.088c-1.117-0.257-2.239-0.491-3.367-0.693c-2.19-0.393-4.403-0.67-6.625-0.791 c-2.37-0.129-4.715,0.005-7.082,0.083c-2.385,0.078-4.773,0.044-7.156,0.178C12.206,8.545,8.202,9.239,5.4,11.945 c-1.462,1.412-2.226,3.233-2.653,5.193c-0.493,2.258-0.786,4.579-0.75,6.892c0.018,1.157,0.127,2.306,0.292,3.451 c0.309,2.133,0.248,4.331,0.692,6.444c0.41,1.951,1.987,3.338,3.682,4.242c3.576,1.908,7.845,1.759,11.778,1.772 c4.917,0.016,9.85,0.142,14.766,0.013c2.371-0.062,4.766-0.263,7.063-0.887c1.88-0.511,3.625-1.413,4.428-3.285 c0.382-0.89,0.537-1.846,0.657-2.801c0.148-1.173,0.266-2.352,0.369-3.53C45.936,27.04,46.059,24.62,46.014,22.201z M44.402,32.579 c-0.235,2.017-0.695,3.903-2.647,4.888c-1.855,0.936-4.13,1.202-6.173,1.365c-4.485,0.358-9.042,0.134-13.537,0.119 c-2.184-0.007-4.37,0.012-6.554-0.032c-1.836-0.037-3.685-0.145-5.477-0.573c-1.788-0.427-3.56-1.193-4.874-2.512 c-1.49-1.496-1.431-3.717-1.579-5.693c-0.073-0.979-0.168-1.954-0.308-2.926c-0.319-2.207-0.333-4.443-0.074-6.658 c0.244-2.092,0.565-4.432,1.642-6.278c1.748-2.998,5.377-4.328,8.657-4.736c2.197-0.274,4.422-0.298,6.633-0.329 c2.202-0.031,4.398-0.168,6.599-0.206c4.259-0.074,8.481,0.461,12.633,1.384c0.959,0.213,2.013,0.378,2.857,0.911 c0.754,0.476,1.265,1.246,1.599,2.058c0.744,1.809,0.912,3.9,1.069,5.828C45.23,23.651,44.92,28.143,44.402,32.579z">
+                    </path>
+                    <path fill="#d6e5e5"
+                        d="M19.6,17.534C19,22,19.78,26.353,19.7,30.466c3.819-2.139,7.937-4.278,11.757-6.417 c-1.568-0.967-3.336-1.955-4.998-2.75C24.247,20.242,21.461,18.791,19.6,17.534z">
+                    </path>
+                    <path fill="#010101"
+                        d="M31.709,23.617c-3.848-2.363-8.1-4-11.857-6.515c-0.154-0.103-0.302-0.098-0.426-0.041 c-0.147,0.036-0.272,0.138-0.308,0.339c-0.431,2.392-0.563,4.791-0.357,7.213c0.166,1.952,0.469,3.887,0.439,5.851 c-0.006,0.386,0.427,0.614,0.752,0.432c3.897-2.179,7.86-4.237,11.757-6.417C32.044,24.293,32.022,23.81,31.709,23.617z M19.775,24.774c-0.192-2.15-0.119-4.281,0.206-6.408c3.349,2.13,7.034,3.667,10.461,5.667c-3.407,1.889-6.852,3.71-10.259,5.599 C20.137,28.007,19.919,26.396,19.775,24.774z">
+                    </path>
+                </svg>YouTube Kids</a>
+            <hr>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    settings
+                </span>設定</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    flag
+                </span>檢舉紀錄</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    help
+                </span>說明</a>
+            <a href="#" class="sidebarit"><span class="material-symbols-outlined">
+                    feedback
+                </span>提供意見</a>
+            <hr>
+            <div class="lw">
+                <a href="#">簡介</a>
+                <a href="#">媒體</a>
+                <a href="#">版權</a>
+                <a href="#">與我們聯絡</a>
+                <br>
+                <a href="#">創作者</a>
+                <a href="#">廣告</a>
+                <a href="#">開發人員</a>
+            </div>
+            <br>
+            <div class="lw">
+                <a href="#">條款</a>
+                <a href="#">隱私權</a>
+                <a href="#">政策與安全性</a>
+                <a href="#">YouTube 運作方式</a>
+                <a href="#">測試新功能</a>
+            </div>
+            <br>
+            <div class="ft">© 2023 Google LLC</div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="chw">
+            <div class="ch">
+                <p>全部</p>
+            </div>
+            <div class="ch">
+                <p>音樂</p>
+            </div>
+            <div class="ch">
+                <p>遊戲</p>
+            </div>
+            <div class="ch">
+                <p>直播中</p>
+            </div>
+            <div class="ch">
+                <p>合輯</p>
+            </div>
+            <div class="ch">
+                <p>卡通</p>
+            </div>
+            <div class="ch">
+                <p>動作冒險遊戲</p>
+            </div>
+            <div class="ch">
+                <p>烹飪</p>
+            </div>
+            <div class="ch">
+                <p>最新上傳</p>
+            </div>
+            <div class="ch">
+                <p>已觀看</p>
+            </div>
+            <div class="ch">
+                <p>讓你耳目一新的影片</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- video -->
+    <div class="video-container">
+        <div class="video-content">
+            <div class="grid-box">
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/神秘1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/神秘.jpg" alt="神秘秘"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>【新楓之谷】【神秘】找尋我的童年回憶！去找認識15年的網友！沒想到帳號還留著馬上看一下裡面還有什麼東西！真的是滿滿的回憶…沒想到楓之谷帶著我們長大😂│尋找童年ep1</h3>
+                                <div class="name">神秘秘</div>
+                                <div class="watch-date">觀看次數：1.5萬次．9天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/小1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/小.jfif" alt="浪D-国服第一船长CN Rank1 GP"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>【浪D船長】和超級小代汎的頂級對決，鎖神鏈+藍盾就想騎船長臉？1100真傷砍死你呀!（vs蓋倫）</h3>
+                                <div class="name">浪D-国服第一船长CN Rank1 GP</div>
+                                <div class="watch-date">觀看次數：2.4萬次．1天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/大情1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/大情.jfif" alt="大晴"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>TWRO仙境傳說【契靈士全方位分析解說】獵靈士的上位轉職！眾所期待的職業終於開放啦！玩起來究竟是什麼感覺呢？</h3>
+                                <div class="name">大晴</div>
+                                <div class="watch-date">觀看次數：7655次．14小時前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/報.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/報1.jfif" alt="爆哥Neal"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>[同步觀賽] NM vs KDF | 15歲業餘新人對抗職業強權打出風采！團體賽8強第9場 | 10.18《2023 KDL》【爆哥Neal】</h3>
+                                <div class="name">爆哥Neal</div>
+                                <div class="watch-date">觀看次數：3.4萬次．4天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/나빌레이어1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/나빌레이어.jpg" alt="나빌레이어"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>최상위 자리에서 한 발 내려오는 하이랜더. 2023년 10월 밸런스 패치 후 하이랜더로 아틀라스 정원을 체험해봤습니다 [라테일 / 나빌레이어]</h3>
+                                <div class="name">나빌레이어</div>
+                                <div class="watch-date">觀看次數：498次．1天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-box">
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/po1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/po.jpg" alt="Caedrel"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>THE BEST DRAW EVER AT WORLDS 2023 - CAEDREL</h3>
+                                <div class="name">Caedrel</div>
+                                <div class="watch-date">觀看次數：21萬次．1天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/猴1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/猴.jfif" alt="蘭林漢的粉絲 - 猴哥專屬精華頻道 "></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>猴哥：百分百爆擊達瑞斯！猴哥想玩一招秒人！</h3>
+                                <div class="name">蘭林漢的粉絲 - 猴哥專屬精華頻道</div>
+                                <div class="watch-date">觀看次數：9.9萬次．1天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d0.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>屁孩的種類｜穿搭邋遢的定義｜如何分辨Gay｜【EP148】Dcard尋奇｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：40萬次．6天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>聰明的男生是不是很夯｜另一半是收藏家｜大家覺得自己上相嗎｜【EP146】@QiuFengZe @diegodtk0909 Dcard尋奇｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：27萬次．2週前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d2.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>怎麼愈來愈多人去露營？｜會探聽同事薪水嗎｜另一半聊天句點 能接受嗎｜【EP147】Dcard尋奇｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：37萬次．13天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-box">
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d3.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>大家穿什麼睡衣｜傳訊息的地雷｜討厭被誤會｜真的有看對眼這件事情嗎【EP145】Dcard尋奇｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：49萬次．2週前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d4.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>貧窮會世襲？真的只能寄生上流了嗎？！開箱路人的爸媽職業意外尋獲：傳說中的醫生世家、只能傳承給兒女的爸爸！【階級複製】Dcard調查局｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：56萬次．3週前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d5.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>秒暈運動！排球男VS籃球男？女生瑜珈褲直接封神？流的不是汗，是賀爾蒙【最暈運動】Dcard調查局｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：57萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d6.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>怎樣才是有氣質｜這種內褲誰敢穿｜有被體罰過嗎｜現在小學生的流行【EP142】Dcard尋奇｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：41萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d7.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>幾歲開始金錢焦慮｜大家的馬桶癖｜跟男友的哥哥交往｜分手後有成長嗎【EP141】Dcard尋奇｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：49萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-box">
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d8.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>超派！2023口頭禪大戰！「蛤」？「ㄍㄡˊ」到底是什麼？了解意思後真的「笑死」...【口頭禪大調查】Dcard調查局｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：41萬次．4天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/d9.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/Dcard Video.jpg" alt="Dcard Video"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>頂級女優的挑戰！河北彩花帶你親臨片中劇情，高校運動服...男人們維持專注力嗎？【專注力大賽】不限時動態｜Dcard.Video</h3>
+                                <div class="name">Dcard Video</div>
+                                <div class="watch-date">觀看次數：61萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g1.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>【谷阿莫】2023/9/13 蘋果發佈會 內容重點解說｜iPhone15、Apple Watch Ultra 2</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：15萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g2.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>苗栗最低分三間飯店，真的睡一晚選負評王【谷阿莫Life】197 負評飯店EP38：新光明大旅社、新悅商旅、丸松大飯店</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：26萬次．9天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g3.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>被關進這鐵桶能怎麼逃脫【谷阿莫Life】188 破箱而出EP7</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：22萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-box">
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g4.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>實測電影《金牌特務》用雨傘勾酒杯砸人可行嗎【谷阿莫Life】186</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：25萬次．2個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g5.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>住飯店怕被偷拍，用反針孔監測器到底有沒有用【谷阿莫Life】199</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：0次．1分鐘前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g6.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>用溫泉發泡錠及底片盒做一個飛針發射器！柯南實驗系列【谷阿莫Life】189</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：20萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g7.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>Google評分1.8的房間這樣合理嗎？【谷阿莫Life】190 負評飯店EP35：富比多賓館、富比世大飯店</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：23萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g8.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>會噴海苔的按摩浴缸vs發霉灰塵房vs臭到超標房 / 蘆洲三間汽旅【谷阿莫Life】194 紫紅汽車旅館、嘉年華汽車旅館、香奈爾汽車旅館</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：23萬次．3週前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-box">
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g9.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>用一條釣魚線，把不屬於你的東西放到你的口袋裡 / 柯南實驗系列【谷阿莫Life】196</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：16萬次．2週前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g10.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>老闆要衝進來了？大軍卡在門口【谷阿莫Life】191負評飯店EP36：亞都商旅、百宣HOTEL 、松雨汽車旅館</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：49萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g11.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>三間新竹Google高評分飯店，結果拍到小強【谷阿莫Life】198</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：15萬次．2天前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g12.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>博士班開箱【谷阿莫Life】192</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：14萬次．1個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+                <div class="video-box">
+                    <a href="#">
+                        <div class="videopreview"><img class="vimg" src="./img/g0.jpg" alt=""></div>
+                    </a>
+                    <div class="video-user-detail">
+                        <div class="video-logo"><a href="#"><img class="vlogo" src="./img/g.jfif" alt="谷阿莫Life"></a></div>
+                        <div class="detail"><a href="#">
+                                <h3>差點被老闆娘嚇死，6個月前拍的負評飯店現在還好嗎？【谷阿莫Life】187 南國旅社、華倫旅社</h3>
+                                <div class="name">谷阿莫Life</div>
+                                <div class="watch-date">觀看次數：31萬次．2個月前</div>
+                            </a>
+                        </div>
+                        <div class="videoset"><span class="material-symbols-outlined">
+                                more_vert
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
